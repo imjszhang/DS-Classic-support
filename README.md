@@ -9,9 +9,9 @@ This repository contains static support documentation only. Application source c
 ## Pages
 
 - `index.html`: bilingual support page
-- `privacy.html`: privacy policy draft, pending final release review
+- `privacy.html`: bilingual privacy policy
 - `style.css`: local stylesheet
 
 GitHub Pages serves the root of the `main` branch. No build dependencies, tracking scripts, or external fonts are included. The hosting provider may process access information under its own privacy policy.
 
-The privacy page remains a draft and must not be used as the final App Store privacy policy until the release review is complete.
+Developer/operator: JS Zhang. Before each application release, verify that the policy matches the distributed build.

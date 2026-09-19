@@ -1,0 +1,75 @@
+# DS-Classic 隐私政策 / Privacy Policy
+
+开发者／运营者 / Developer and operator: JS Zhang
+
+生效日期 / Effective date: 2026-09-19
+
+本政策适用于 DS-Classic 及其支持网站。/ This policy covers DS-Classic and its support website.
+
+## 中文内容
+
+DS-Classic 是独立的 AI API 客户端。应用在本机保存聊天历史、服务配置和导入的附件副本；API 密钥保存在系统钥匙串。iPhone 与 Mac 的数据独立，当前版本不提供自动跨端同步。
+
+配置服务不等于同意发送聊天。你需要在服务设置中明确允许向该接收方发送聊天数据。发送时，当前消息、用于回答的历史上下文、附件图片或提取的文档内容可能交给你选择的服务。API Key 作为鉴权信息发送给对应服务。服务商会看到请求所必需的连接信息，并按自己的政策处理请求和保存数据。
+
+“获取模型列表”会使用所填 API Key 访问指定服务，不发送聊天历史。“测试聊天”会向所填服务发送固定的简短测试消息，并可能产生服务商费用。它不发送私人历史或附件。
+
+联网搜索需要单独授权。启用后，模型生成的搜索词会发送给 Tavily，搜索词可能包含对话信息。返回的结果和来源会发送给所选 AI 服务，以便生成回答。
+
+关闭服务的数据授权并保存可阻止后续聊天发送；关闭 Tavily 授权可阻止后续联网搜索。撤回授权不撤回已经发送的数据，也不删除服务商持有的数据。停止生成不能保证撤销已到达服务端的请求或费用。
+
+删除对话会将其从应用历史中移除；备份、已导出的文件和服务商保存的数据需要分别管理。导出文件由你选择保存或共享，可能包含聊天、思考内容和模型信息，请仅分享给预期接收者。
+
+应用不包含广告或开发者自建的聊天中转服务器。第三方服务的数据处理、保留和删除请求应参考相应服务商政策。网站托管与邮件支持的处理方式见下文。
+
+## English content
+
+DS-Classic is an independent AI API client. Conversation history, provider settings, and imported attachment copies are stored locally. API keys are stored in the system Keychain. iPhone and Mac use separate local data; automatic cross-device sync is not provided in the current version.
+
+Saving a provider does not authorize chat sharing. You explicitly allow chat data sharing for the configured recipient. Sending a message may transmit the message, relevant conversation history, attached images, or extracted document text to that provider. Your API key is sent for authentication. The provider receives connection information necessary to process requests and handles data under its own policies.
+
+Fetching a model list sends authentication to the configured endpoint without conversation history. Testing a connection sends a fixed short test message and may incur provider charges; it does not send your private chat history or attachments.
+
+Optional search requires separate permission. Model-generated search queries, which may include conversation information, are sent to Tavily. Search results and sources are passed to the selected AI provider.
+
+Turning off a provider's sharing permission and saving prevents subsequent chat submissions. Turning off Tavily permission prevents subsequent searches. Revocation does not recall data already sent or remove data held by providers. Stopping generation does not guarantee cancellation of server processing or charges.
+
+Deleting a conversation removes it from the app's visible history. Backups, exported files, and provider-held data must be managed separately. Exports may include chat content, reasoning, and model information; share them only with intended recipients.
+
+The app contains no advertisements or developer-operated chat relay. Consult each provider's policies for retention and deletion requests. Website hosting and email support are described below.
+
+## 联系方式 / Contact
+
+支持与隐私问题请联系 / For support and privacy enquiries: ortle3x3@gmail.com。请勿发送 API 密钥 / Do not send API keys.
+
+## 邮件支持 / Email support
+
+当你通过邮件联系 JS Zhang，我们会收到你的邮箱地址、邮件内容以及你主动提供的附件，用于回复、排查问题和处理隐私请求。这些邮件通过 Gmail 处理。我们在处理请求及相关后续事项所需期间保留邮件；你可以通过支持邮箱请求访问、更正或删除你提供的信息，但必要的法律义务可能要求保留部分记录。请勿发送 API Key 或不必要的私人聊天。
+
+When you email JS Zhang, we receive your email address, message, and any attachments you choose to send, to respond, troubleshoot, and handle privacy requests. Email is processed through Gmail. We retain correspondence as needed to handle the request and related follow-up. Contact us to request access, correction, or deletion of information you supplied, subject to necessary legal retention obligations. Do not send API keys or unnecessary private conversations.
+
+## 网站托管 / Website hosting
+
+本网站由 GitHub Pages 托管，不添加广告、访问统计脚本或追踪 Cookie。GitHub 为安全目的记录和保存访问者 IP 地址，详见 GitHub 隐私声明。邮件及托管服务、你选择的 AI 服务和搜索服务可能在你所在国家或地区之外处理数据；请查阅相关服务的政策。
+
+This website is hosted by GitHub Pages and adds no advertising, analytics scripts, or tracking cookies. GitHub logs and stores visitor IP addresses for security purposes; see its privacy statement. Email, hosting, your selected AI provider, and search services may process data outside your country or region. Consult their policies.
+
+## 第三方政策 / Third-party policies
+
+[DeepSeek](https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html)
+
+[Tavily](https://www.tavily.com/privacy)
+
+[GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+
+[Google / Gmail](https://policies.google.com/privacy)
+
+自定义 API 地址可能属于其他服务商或网关。请以实际接收方的隐私政策和你的服务协议为准；DS-Classic 无法控制第三方的数据保留或删除。
+
+Custom API endpoints may belong to other providers or gateways. Refer to the actual recipient's privacy policy and your service agreement. DS-Classic does not control third-party retention or deletion.
+
+## 政策更新 / Updates
+
+如数据处理方式变化，我们会更新本页面与生效日期；需要额外授权的数据发送将按应用内提示处理。
+
+If data practices change, we will update this page and its effective date. Additional sharing permissions will be handled through the app when required.
